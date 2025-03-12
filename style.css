@@ -148,3 +148,17 @@ footer {
 .social-links a:hover {
     color: #fff;
 }
+
+.photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+}
+.photo-gallery img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+.photo-gallery img:hover {
+    transform: scale(1.05);
+}
