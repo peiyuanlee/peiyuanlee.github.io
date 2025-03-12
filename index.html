@@ -8,48 +8,151 @@
 </head>
 <body>
     <header>
-        <h1>Pei Yuan Lee</h1>
+        <h1>Peiyuan Lee</h1>
         <p>Data Science | Machine Learning | AI & Fashion</p>
     </header>
 
     <section class="about">
         <h2>About Me</h2>
-        <p>I'm a UCLA statistics senior passionate about data-driven insights, machine learning, and AI in fashion. I specialize in predictive modeling, feature engineering, and generative AI.</p>
+        <p>I’m a Statistics and Data Science major with a minor in Data Engineering at UCLA. 
+            My passions lie at the intersection of data science, deep learning, and generative AI, with a creative focus on fashion. 
+            I love uncovering insights from complex data and exploring how AI can transform creative industries.</p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/peiyuan-lee/" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/peiyuanlee" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="resume.pdf" target="_blank">
+                <i class="fas fa-file-alt"></i>
+            </a>
+        </div>
     </section>
 
     <section class="projects">
         <h2>Projects</h2>
-        <div class="project">
-            <h3>🔍 Fashion Image Similarity Search</h3>
-            <p>Developed a deep learning model using ResNet50 to find visually similar fashion items.</p>
-            <a href="https://github.com/peiyuanlee/your-project-repo" target="_blank">View Project</a>
-        </div>
-        <div class="project">
-            <h3>🎵 Spotify Genre Predictor</h3>
-            <p>Built a machine learning model that classifies songs into genres based on audio features.</p>
-            <a href="https://github.com/peiyuanlee/your-project-repo" target="_blank">View Project</a>
+        <div class="project-grid">
+            <div class="project">
+                <a href="https://github.com/peiyuanlee/EEG-Classification" target="_blank" class="project-title">
+                    <h3>Electroencephalogram (EEG) Classification <i class="fab fa-github"></i></h3>
+                </a>
+                <ul>
+                    <li>Developed a hybrid CNN and RNN architecture using TensorFlow to classify EEG signals, achieving 72.14% accuracy.</li>
+                    <li>Applied data augmentation techniques like noise injection and subsampling to expand dataset size.</li>
+                    <li>Fine-tuned hyperparameters with KerasTuner, enhancing prediction accuracy by ~10%.</li>
+                </ul>
+            </div>
+    
+            <div class="project">
+                <a href="https://github.com/peiyuanlee/Fashion_Similarity_Search" target="_blank" class="project-title">
+                    <h3>Fashion Image Similarity Search <i class="fab fa-github"></i></h3>
+                </a>
+                <ul>
+                    <li>Built a deep learning-based fashion similarity search system using the DeepFashion 2 dataset (84K+ images).</li>
+                    <li>Leveraged transfer learning with ResNet50 and VGGNet for feature extraction.</li>
+                    <li>Used cosine similarity to identify visually similar apparel.</li>
+                </ul>
+            </div>
+    
+            <div class="project">
+                <a href="https://github.com/peiyuanlee/CysdbAutomerge" target="_blank" class="project-title">
+                    <h3>Backus Lab CysDB Automerge <i class="fab fa-github"></i></h3>
+                </a>
+                <ul>
+                    <li>Developed a protein database lookup website using Django, JavaScript, and HTML/CSS.</li>
+                    <li>Implemented Docker for streamlined deployment and integrated RESTful APIs for seamless data retrieval.</li>
+                    <li>Automated protein database updates using Python scripts.</li>
+                </ul>
+            </div>
+    
+            <div class="project">
+                <a href="https://github.com/peiyuanlee/Spotify_Genre_Prediction" target="_blank" class="project-title">
+                    <h3>Spotify Genre Predictor <i class="fab fa-github"></i></h3>
+                </a>
+                <ul>
+                    <li>Performed EDA and visualized data on 114K+ Spotify tracks with 20 features.</li>
+                    <li>Engineered features to handle class imbalance, including SMOTE and probability adjustments.</li>
+                    <li>Benchmarked models like random forests, clustering, and PCA, achieving ~70% classification accuracy.</li>
+                </ul>
+            </div>
+    
+            <div class="project">
+                <a href="https://github.com/peiyuanlee/DrPrepper" target="_blank" class="project-title">
+                    <h3>Dr Prepper <i class="fab fa-github"></i></h3>
+                </a>
+                <ul>
+                    <li>Built a disaster preparedness MVP mobile app using React Native, Expo, and JavaScript.</li>
+                    <li>Worked with clients to transform wireframe objectives into functional app features.</li>
+                    <li>Led iterative improvements based on user feedback and team insights.</li>
+                </ul>
+            </div>
+    
+            <div class="project">
+                <a href="https://github.com/peiyuanlee/Penguins-Machine-Learning-Project" target="_blank" class="project-title">
+                    <h3>Classifying Penguins Species <i class="fab fa-github"></i></h3>
+                </a>
+                <ul>
+                    <li>Conducted EDA and built visualizations using Pandas, NumPy, and Seaborn.</li>
+                    <li>Applied machine learning models (SVM, logistic regression, random forests) to classify penguins.</li>
+                    <li>Achieved an accuracy of 98.8%.</li>
+                </ul>
+            </div>
         </div>
     </section>
+    
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/YOUR-KIT-ID.js" crossorigin="anonymous"></script>
+    
 
     <section class="skills">
         <h2>Skills</h2>
+        <h3>Languages</h3>
         <ul>
-            <li>Python (Pandas, NumPy, Scikit-Learn, TensorFlow)</li>
-            <li>SQL & Data Engineering</li>
-            <li>Machine Learning & Deep Learning</li>
-            <li>Data Visualization (Matplotlib, Seaborn, Tableau)</li>
+            <li>Python</li>
+            <li>SQL</li>
+            <li>R</li>
+            <li>Javascript</li>
+            <li>C++</li>
+        </ul>
+        <h3>Framework</h3>
+        <ul>
+            <li>Tensorflow</li>
+            <li>Keras</li>
+            <li>Pytorch</li>
+            <li>Django</li>
+            <li>Numpy</li>
+            <li>Pandas</li>
+            <li>Matplotlib</li>
+            <li>Seaborn</li>
+            <li>Scikit-learn</li>
+            <li>SciPy</li>
+            <li>Selenium</li>
+        </ul>
+        <h3>Tools</h3>
+        <ul>
+            <li>Git/Github</li>
+            <li>JIRA</li>
+            <li>AWS Services</li>
+            <li>Docker</li>
+            <li>Microsoft Office (Excel, Powerpoint, Word, Access)</li>
+            <li>Tableau</li>
         </ul>
     </section>
 
     <section class="contact">
         <h2>Contact</h2>
-        <p>📧 <a href="mailto:your.email@example.com">your.email@example.com</a></p>
-        <p>💼 <a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a></p>
+        <p>📧 <a href="mailto:peiyuanlee@g.ucla.edu">peiyuanlee@g.ucla.edu</a></p>
+        <p>💼 <a href="https://www.linkedin.com/in/peiyuan-lee/" target="_blank">LinkedIn</a></p>
         <p>📂 <a href="https://github.com/peiyuanlee" target="_blank">GitHub</a></p>
     </section>
 
     <footer>
-        <p>© 2025 Pei Yuan Lee. All Rights Reserved.</p>
+        <p>Peiyuan Lee</p>
     </footer>
+
 </body>
 </html>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<script src="https://kit.fontawesome.com/YOUR-KIT-ID.js" crossorigin="anonymous"></script>
